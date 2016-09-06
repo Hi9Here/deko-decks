@@ -44,44 +44,17 @@
 </head>
 
 <body unresolved>
-    <!-- Configure Service Worker caching: -->
+    <!-- Configure Service Worker caching: - ->
     <platinum-sw-register auto-register skip-waiting clients-claim reload-on-install href="../sw-import.js">
         <platinum-sw-cache default-cache-strategy="networkFirst">
         </platinum-sw-cache>
-    </platinum-sw-register>
+	</platinum-sw-register> -->
 
     <!-- Configure Firebase app: -->
-    <firebase-app name="notes" api-key="AIzaSyBzKhxNa2k9pA3m9_Ji3POFAKyGGFnyshI" auth-domain="note-app-firebase-3a483.firebaseapp.com" database-url="https://note-app-firebase-3a483.firebaseio.com">
-    </firebase-app>
+    <firebase-app name="notes" api-key="AIzaSyATO4Rk1omoi81D_GFNPSvNbQ3wC082WjE" auth-domain="deko-decks.firebaseapp.com" database-url="https://deko-decks.firebaseio.com"> </firebase-app>
 
     <!-- Instantiate the Notes app: -->
     <note-app></note-app>
-</body>
-
-</html>
-=======
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
-<title>Deko</title>
-<link rel="manifest" href="manifest.json">
-<style>
-    body {
-        margin: 0;
-    }
-</style>
-<script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-<script src="bower_components/web-animations-js/web-animations.min.js"></script>
-<link rel="import" href="bower_components/platinum-sw/platinum-sw-elements.html">
-<link rel="import" href="bower_components/polymerfire/firebase-app.html">
-<link rel="import" href="note-app.html">
-</head>
-
-<body>
-    <firebase-app name="deko" api-key="AIzaSyATO4Rk1omoi81D_GFNPSvNbQ3wC082WjE" auth-domain="deko-decks.firebaseapp.com" database-url="https://deko-decks.firebaseio.com">
-    </firebase-app>
-    <note-app></note-app>
-    <!--   <platinum-sw-register auto-register skip-waiting clients-claim reload-on-install href="sw-import.js">
-      <platinum-sw-cache default-cache-strategy="networkFirst"></platinum-sw-cache>
-    </platinum-sw-register> -->
 </body>
 
 </html>
