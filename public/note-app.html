@@ -53,10 +53,17 @@
 
     <paper-fab icon="add" disabled="[[!online]]" on-tap="create"></paper-fab>
 
-    <firebase-document id="document" app-name="notes" path="[[editableNoteId]]" data="{{editableNote}}">
+    <firebase-document 
+        id="document" 
+        app-name="notes" 
+        path="[[editableNoteId]]" 
+        data="{{editableNote}}">
     </firebase-document>
 
-    <na-editor id="editor" note="{{editableNote}}" on-close="commitChange">
+    <na-editor 
+        id="editor" 
+        note="{{editableNote}}" 
+        on-close="commitChange">
     </na-editor>
 
     </template>
