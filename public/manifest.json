@@ -1,5 +1,5 @@
 {
-<<<<<<< HEAD
+
     "name": "Notes",
     "scope": "./",
     "start_url": "index.html",
@@ -39,13 +39,3 @@
         "density": 4.0
     }]
 }
-=======
-  "name": "Deko",
-  "scope": "./",
-  "start_url": "index.html",
-  "display": "standalone",
-  "orientation": "any",
-  "theme_color": "#9C27B0",
-  "background_color": "#9C27B0"
-}
->>>>>>> a6c1e773f4b1c698e9a11726903d8706050d12f8
