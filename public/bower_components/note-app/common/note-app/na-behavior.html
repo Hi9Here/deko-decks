@@ -11,7 +11,7 @@
         }
       },
 
-      get dekoPath() {
+      get notesPath() {
         return '';
       },
 
@@ -67,7 +67,7 @@
         if (this.$.document.isNew &&
             (this.editableNote.title ||
              this.editableNote.body)) {
-          return this.$.document.save(this.dekoPath).then(() => {
+          return this.$.document.save(this.notesPath).then(() => {
             this.$.document.reset();
           });
         }
