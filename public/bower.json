@@ -1,0 +1,21 @@
+{
+  "name": "Deko Decks",
+  "homepage": "https://github.com/Hi9Here/deko-decks",
+  "authors": [
+    "Marcus Hitchins <marcus7777@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "deko-app": "Hi9Here/deko-app"
+  }
+}
