@@ -33,7 +33,7 @@
     <script src="bower_components/web-animations-js/web-animations.min.js"></script>
     <link rel="import" href="bower_components/platinum-sw/platinum-sw-elements.html">
     <link rel="import" href="bower_components/polymerfire/firebase-app.html">
-    <link rel="import" href="note-app.html">
+    <link rel="import" href="bower_components/deko-app/deko-app.html">
 
     <style>
         body {
@@ -51,10 +51,10 @@
 	</platinum-sw-register> -->
 
     <!-- Configure Firebase app: -->
-    <firebase-app name="notes" api-key="AIzaSyATO4Rk1omoi81D_GFNPSvNbQ3wC082WjE" auth-domain="deko-decks.firebaseapp.com" database-url="https://deko-decks.firebaseio.com"> </firebase-app>
+    <firebase-app name="decks" api-key="AIzaSyATO4Rk1omoi81D_GFNPSvNbQ3wC082WjE" auth-domain="deko-decks.firebaseapp.com" database-url="https://deko-decks.firebaseio.com"></firebase-app>
 
     <!-- Instantiate the Notes app: -->
-    <note-app></note-app>
+    <deko-app></deko-app>
 </body>
 
 </html>
