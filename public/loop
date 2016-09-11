@@ -1,0 +1,1 @@
+bower update deko-app && bower update && firebase deploy || sh loop
