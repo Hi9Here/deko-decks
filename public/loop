@@ -1,1 +1,1 @@
-bower update deko-app && bower update && firebase deploy || sh loop
+bower update deko-app && beep && bower update && firebase deploy || sh loop
