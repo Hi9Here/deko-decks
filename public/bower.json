@@ -19,5 +19,8 @@
     "deko-app": "Hi9Here/deko-app",
     "paper-input": "PolymerElements/paper-input#^1.1.18",
     "app-layout": "PolymerElements/app-layout#^0.10.4"
+  },
+  "resolutions": {
+    "firebase": "^3.0"
   }
 }
