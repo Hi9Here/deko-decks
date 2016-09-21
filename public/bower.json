@@ -16,11 +16,12 @@
     "tests"
   ],
   "dependencies": {
-    "deko-app": "Hi9Here/deko-app",
+    "deko-app": "Hi9Here/deko-app#InOutput",
     "paper-input": "PolymerElements/paper-input#^1.1.18",
     "app-layout": "PolymerElements/app-layout#^0.10.4"
   },
   "resolutions": {
-    "firebase": "^3.0"
+    "firebase": "^3.0",
+    "iron-a11y-keys-behavior": "^1.1.5"
   }
 }
